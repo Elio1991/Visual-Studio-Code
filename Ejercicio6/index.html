@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+
+    <form  method="POST"
+enctype="multipart/form-data">
+    <div>
+    <label for="Nombre de usuario"><strong>Nombre de usuario</strong></label><br>
+    <input type="text" name="Nombre de usuario" required placeholder="Nombre">
+    </div>
+    <div>
+    <label for="contrasenia del usuario"><strong>Contraseña del usuario</strong></label><br>
+    <input type="password" name="Contrasenia del usuario" required placeholder="Contraseña">
+    </div>
+    <label for="Edad del usuario"><strong>Edad del usuario</strong></label><br>
+    <input type="number" name="Edad del usuario" ><br>
+    <div>
+    <label for="Fecha de nacimiento del usuario"><strong>Fecha de nacimiento del usuario</strong></label><br>
+    <input type="date" name="Fecha de nacimiento del usuario" required>
+    </div>
+    <div>
+    <label for="Genero"><strong>Sexo del usuario</strong></label><br>
+    <input type="radio" name="Genero" id="Hombre"><label for="Hombre"><strong>Hombre</strong></label><br>
+    <input type="radio" name="Genero" id="Mujer"><label for="Mujer"><strong>Mujer</strong></label><br>
+    <input type="radio" name="Genero" id="Prefiero no decir"><label for="Prefiero no decir"><strong>Prefiero no decir</strong></label>
+    </div>
+    <div>
+    <label for="Pais"><strong>Pais nacimiento del usuario</strong></label><br>
+    <select name="Pais" required>
+        <option value="Argentina">Argentina</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Uruguay">Uruguay</option>
+        </select><br>
+    </div>
+        <button type="submit"><strong>Enviar</strong></button>  
+        <button type="reset"><strong>Borrar</strong></button>  
+
+</form>
+</body>
+</html>
