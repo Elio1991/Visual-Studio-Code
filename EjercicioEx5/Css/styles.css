@@ -1,0 +1,33 @@
+.container-fluid{
+    margin: 0 70px;
+
+}
+.col-sm-6{
+    
+    text-align: center;
+    display: flex; /* Activa el modelo de caja flexible */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+.card-title #precios{
+   
+    color: #007bff;
+    font-size: 16px; /* Tamaño de fuente para los precios */
+    font-weight: bold
+  }
+ 
+  .btn-personalizado{
+    background-color: rgb(228, 228, 33);
+    color: black;
+    font-weight: bold;
+  }
+  .price-container {
+    font-size: 16px; /* Tamaño de fuente para los precios */
+    font-weight: bold; /* Para enfatizar los precios */
+  }
+  .original-price {
+    text-decoration: line-through; /* Tacha el precio original */
+    color: #888; /* Color gris para el precio original */
+  }
+  .discounted-price {
+    color: #007bff; /* Color azul para el precio con descuento */
+  }

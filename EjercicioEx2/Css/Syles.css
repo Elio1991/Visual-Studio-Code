@@ -1,0 +1,20 @@
+table, th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border:1px solid #333; 
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+.encabezado{
+    background-image: url(../Imagenes/FondoGris1.gif);
+}
+#fila1, #fila2, #fila3, #fila4{
+    text-align: left;
+    background-color: #c5ddf5;
+}
+.alter td:hover{
+    background-color: rgb(224, 224, 89);
+}
+img{
+    vertical-align: middle;
+}
